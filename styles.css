@@ -1,0 +1,154 @@
+/* Fonts */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Styles */
+
+body {
+    box-sizing: border-box;
+    padding: .5%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left-nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 6%;
+    font-size: 14px;
+}
+
+.top-right-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    font-size: 14px;   
+    position: relative;
+    left: 31.3%;
+}
+
+.account-icon {
+    width: 7%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 4% 5% 2% 5%;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border-radius: 25px;
+    padding: 12px;
+    width: 38%;
+}
+
+.magnifying-glass {
+    position: relative;
+    z-index: 1;
+    right: 39%;
+    opacity: .4;
+}
+
+.microphone {
+    position: relative;
+    z-index: 1;
+    right: 4%;
+    width: 1%;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.google-search {
+    padding: 1%;
+    margin-right: .5%;
+    border-radius: 5px;
+    
+}
+
+.lucky {
+    margin-left: .5%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.phone-plan {
+    color: blue;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(228, 228, 228, .3);
+    position: fixed;
+    bottom: 0;
+    font-size: 14px;
+    width: 100%;
+}
+
+.bottom-left-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.carbon-neutral {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+}
+
+.leaf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+}
+
+.carbon-neutral .leaf img {
+    display: flex;
+    width: 80%;
+    margin: 0;
+}
+
+.bottom-right-nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 25%;
+}
